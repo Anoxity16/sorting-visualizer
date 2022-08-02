@@ -1,0 +1,90 @@
+
+*{
+    font-family: cursive;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: #12232E; */
+}
+
+nav{
+    background-color: #12232E;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding:  3%;
+    grid-gap:10%;
+    
+}
+
+nav .algo-inputs{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 5%;
+}
+
+
+nav .algo-inputs #a_size{
+    padding: 5% 0%;
+}
+
+
+nav .algo-inputs #a_speed{
+    padding: 5% 0%;
+    /* background-color: purple; */
+}
+
+nav .algo-inputs #a_generate{
+    padding: 2%;
+    /* background-color: white; */
+    color: white;
+    border: 2px solid white;
+    background: none;
+}
+nav .algo-inputs #a_generate:hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+    background-color: white;
+}
+
+nav .header-right .main-heading{
+    font-size: xxx-large;
+    padding: 5%;
+}
+
+nav .header-right .algo-buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4px;
+}
+
+nav .header-right .algo-buttons button{
+    padding: 2%;
+    /* background-color: white; */
+    color: white;
+    border: 2px solid white;
+    background: none;
+}
+
+nav .header-right .algo-buttons button:hover{
+    cursor: pointer;
+    color: black;
+    transition: 0.3s;
+    background-color: white;
+}
+
+section{
+   margin: 0% 10%;
+   
+}
+
+section #array_container{
+    border-top: 2px solid white;
+    display: flex;
+    height: 60vh;
+    align-items: flex-end;
+    background-color: thistle;
+}
+
